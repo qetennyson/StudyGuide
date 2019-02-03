@@ -70,7 +70,7 @@ def add_entry():
         }
         print_entry(new_entry)
         cmd = input("\nLook good? [Y] to confirm, [N] to edit: ")
-        if cmd.lower == 'y':
+        if cmd.lower() == 'y':
             break
 
     return new_entry
